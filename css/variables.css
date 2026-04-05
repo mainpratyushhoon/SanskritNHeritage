@@ -1,0 +1,90 @@
+/* ────────────────────────────────────────────────────────────
+   VARIABLES.CSS — Color palette, typography, base spacing
+   ──────────────────────────────────────────────────────────── */
+
+:root {
+  /* Color Palette */
+  --saffron: #C8520A;
+  --saffron-light: #E8763A;
+  --saffron-pale: #FDF3EC;
+  --gold: #B8860B;
+  --gold-light: #D4A017;
+  --earth: #2C1A0E;
+  --earth-mid: #4A2E1A;
+  --earth-light: #7A5C3A;
+  --cream: #FAF5EE;
+  --cream-dark: #F0E8D8;
+  --lotus: #C4445A;
+  --jade: #2D6A4F;
+  --ink: #1A0F05;
+  --parchment: #EDE0C8;
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', serif;
+  --font-devanagari: 'Noto Serif Devanagari', serif;
+  --font-body: 'Crimson Pro', Georgia, serif;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 5rem;
+  --spacing-4xl: 8rem;
+
+  /* Typography Sizes */
+  --text-sm: 0.8rem;
+  --text-base: 0.95rem;
+  --text-lg: 1.15rem;
+  --text-xl: 1.3rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 3.2rem;
+  --text-5xl: 5rem;
+
+  /* Transitions */
+  --duration-fast: 0.3s;
+  --duration-normal: 0.8s;
+  --duration-slow: 1.2s;
+  --easing-ease: ease;
+  --easing-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-full: 20px;
+
+  /* Shadow */
+  --shadow-sm: 0 8px 30px rgba(200, 82, 10, 0.1);
+  --shadow-md: 0 15px 40px rgba(44, 26, 14, 0.15);
+  --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+/* Noise texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1000;
+  opacity: 0.5;
+}

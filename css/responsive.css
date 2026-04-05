@@ -1,0 +1,513 @@
+/* ────────────────────────────────────────────────────────────
+   RESPONSIVE.CSS — Mobile-first breakpoints (mobile, tablet, desktop)
+   ──────────────────────────────────────────────────────────── */
+
+/* MOBILE FIRST (< 768px) */
+
+/* Navigation adjustments for mobile */
+@media (max-width: 767px) {
+  nav {
+    padding: var(--spacing-md);
+    justify-content: space-between;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  nav ul {
+    position: fixed;
+    left: 0;
+    top: 70px;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background: var(--cream);
+    border-bottom: 1px solid rgba(184, 134, 11, 0.2);
+    list-style: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  nav ul.open {
+    max-height: 500px;
+  }
+
+  nav ul li {
+    border-bottom: 1px solid rgba(184, 134, 11, 0.1);
+  }
+
+  nav ul a {
+    display: block;
+    padding: var(--spacing-md);
+    text-align: center;
+  }
+
+  .nav-logo .roman {
+    font-size: 0.65rem;
+  }
+}
+
+/* Hero section mobile */
+@media (max-width: 1024px) {
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .hero-left {
+    padding: 6rem var(--spacing-md) 4rem var(--spacing-md);
+    min-height: auto;
+  }
+
+  .hero-right {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    flex: 1;
+    min-width: 150px;
+  }
+}
+
+/* Explore grid mobile */
+@media (max-width: 767px) {
+  .section-explore,
+  .section-assignments,
+  .section-heritage {
+    padding: 4rem var(--spacing-md);
+  }
+
+  .section-scripture,
+  .section-search {
+    padding: 4rem var(--spacing-md);
+  }
+
+  .explore-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .section-header {
+    margin-bottom: 3rem;
+  }
+
+  .section-title {
+    font-size: clamp(1.8rem, 6vw, 3.2rem);
+  }
+}
+
+/* Tablets (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .explore-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .scripture-featured {
+    grid-template-columns: 1fr;
+  }
+
+  .assignments-layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .heritage-two-col {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+
+/* Mobile specific (< 768px) */
+@media (max-width: 767px) {
+  :root {
+    font-size: 16px;
+  }
+
+  nav {
+    padding: 1rem;
+  }
+
+  .nav-logo .devanagari {
+    font-size: 1rem;
+  }
+
+  .navbar-brand-text {
+    display: none;
+  }
+
+  /* Hero mobile */
+  .hero-eyebrow {
+    font-size: 0.7rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-shloka {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-shloka-translation {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Manuscript card */
+  .manuscript-card {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-stats {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Section spacing */
+  .section-explore,
+  .section-scripture,
+  .section-assignments,
+  .section-heritage,
+  .section-search {
+    padding: 3rem var(--spacing-md);
+  }
+
+  .section-header {
+    margin-bottom: 2rem;
+  }
+
+  .section-eyebrow {
+    font-size: 0.65rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  /* Explore cards */
+  .explore-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .explore-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .explore-card-icon {
+    font-size: 2rem;
+  }
+
+  .explore-card-title {
+    font-size: 1.2rem;
+  }
+
+  .explore-card-desc {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  /* Scripture section */
+  .scripture-featured {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .scripture-nav-panel {
+    gap: 0.6rem;
+  }
+
+  .scripture-nav-item {
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .scripture-nav-item-left .dev {
+    font-size: 1rem;
+  }
+
+  .scripture-devanagari {
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+
+  .scripture-translation {
+    font-size: 1rem;
+  }
+
+  /* Assignments */
+  .assignments-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .assignment-card {
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .assignment-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .assignment-info {
+    width: 100%;
+  }
+
+  .assignment-title {
+    font-size: 1rem;
+  }
+
+  .assignment-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  /* Heritage */
+  .heritage-two-col {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .heritage-timeline {
+    padding-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .heritage-timeline::before {
+    left: 0.7rem;
+  }
+
+  .timeline-item::before {
+    left: -1.3rem;
+  }
+
+  .timeline-title {
+    font-size: 1.1rem;
+  }
+
+  .timeline-desc {
+    font-size: 0.9rem;
+  }
+
+  .heritage-grid-right {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .heritage-tile {
+    aspect-ratio: auto;
+    min-height: 200px;
+  }
+
+  /* Search bar */
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-bar input {
+    padding: 1rem;
+  }
+
+  .search-bar button {
+    padding: 1rem;
+  }
+
+  .search-tags {
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+
+  .search-tag {
+    font-size: 0.75rem;
+    min-width: 80px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 3rem var(--spacing-md) 2rem;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .divider-ornament::before,
+  .divider-ornament::after {
+    width: 40px;
+  }
+}
+
+/* Tablet landscape (1025px - 1200px) */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  :root {
+    font-size: 17px;
+  }
+
+  .explore-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .section-title {
+    font-size: 2.8rem;
+  }
+
+  nav {
+    padding: 1rem 3rem;
+  }
+}
+
+/* Desktop (> 1200px) */
+@media (min-width: 1201px) {
+  /* All elements displayed as designed */
+}
+
+/* Large desktop (> 1920px) */
+@media (min-width: 1921px) {
+  :root {
+    font-size: 20px;
+  }
+
+  .explore-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  nav {
+    padding: 1.5rem 6rem;
+  }
+}
+
+/* Very small mobile (< 360px) */
+@media (max-width: 359px) {
+  nav {
+    padding: 0.75rem;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .explore-card-desc,
+  .timeline-desc,
+  .scripture-translation {
+    font-size: 0.85rem;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* Touch devices - increase tap targets */
+@media (hover: none) and (pointer: coarse) {
+  button,
+  a,
+  .btn-primary,
+  .btn-secondary,
+  .explore-card,
+  .assignment-card,
+  .scripture-nav-item,
+  .heritage-tile {
+    min-height: 48px;
+    min-width: 48px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: more) {
+  :root {
+    --saffron: #A03900;
+    --earth: #1A0F05;
+    --cream: #FFFFFF;
+  }
+
+  .explore-card-count {
+    opacity: 0.15;
+  }
+}
+
+/* Dark mode support (future-proofing) */
+@media (prefers-color-scheme: dark) {
+  /* Can be extended when dark mode is implemented */
+}

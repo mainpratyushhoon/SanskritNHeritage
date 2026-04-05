@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sanskriti — The Living Archive of Sanskrit. Explore scriptures, grammar, heritage, and cultural traditions.">
+  <meta name="theme-color" content="#C8520A">
+  <title>Sanskriti — The Living Archive</title>
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Main stylesheet (imports all modular CSS) -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>संस्कृति</text></svg>">
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav>
+  <div class="nav-logo">
+    <span class="devanagari">संस्कृति</span>
+    <span class="roman">Sanskriti</span>
+  </div>
+  <button class="nav-toggle" aria-label="Toggle navigation menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul>
+    <li><a href="pages/scripture.html">Scripture</a></li>
+    <li><a href="pages/grammar.html">Grammar</a></li>
+    <li><a href="pages/heritage.html">Heritage</a></li>
+    <li><a href="pages/assignments.html">Assignments</a></li>
+    <li><a href="pages/dictionary.html">Dictionary</a></li>
+    <li><a href="#" class="nav-cta">Explore</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow">The Living Archive of Sanskrit</p>
+    <div class="hero-shloka">
+      अकारो वायुसम्भूतो<br>
+      वर्णानामुत्तमो मतः
+    </div>
+    <p class="hero-shloka-translation">
+      "The syllable 'a' arises from breath — it is considered the foremost of all phonemes."
+    </p>
+    <h1 class="hero-title">
+      Ancient<br>
+      Wisdom,<br>
+      <em>Living Voice.</em>
+    </h1>
+    <p class="hero-subtitle">
+      Explore the world's oldest living language — its scriptures, grammar, heritage, and enduring legacy — gathered in one sacred archive.
+    </p>
+    <div class="hero-buttons">
+      <a href="pages/scripture.html" class="btn-primary">Begin Exploring →</a>
+      <a href="pages/assignments.html" class="btn-secondary">View Assignments</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-right-inner">
+      <div class="manuscript-card">
+        <div class="manuscript-label">Rigveda · Mandala I</div>
+        <div class="manuscript-text">
+          अग्निमीळे पुरोहितं<br>
+          यज्ञस्य देवमृत्विजम् ।<br>
+          होतारं रत्नधातमम् ॥
+        </div>
+        <div class="manuscript-source">Rigveda 1.1.1 — The first hymn to Agni</div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">108</span>
+          <span class="stat-label">Upanishads</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">18</span>
+          <span class="stat-label">Puranas</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3,976</span>
+          <span class="stat-label">Sutras</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Vedas</span>
+        </div>
+      </div>
+    </div>
+    <!-- Decorative mandala -->
+    <svg class="mandala-bg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="200" cy="200" r="180" stroke="#EDE0C8" stroke-width="1"/>
+      <circle cx="200" cy="200" r="140" stroke="#EDE0C8" stroke-width="1"/>
+      <circle cx="200" cy="200" r="100" stroke="#EDE0C8" stroke-width="1"/>
+      <circle cx="200" cy="200" r="60" stroke="#EDE0C8" stroke-width="1"/>
+      <circle cx="200" cy="200" r="20" stroke="#EDE0C8" stroke-width="1"/>
+      <line x1="200" y1="20" x2="200" y2="380" stroke="#EDE0C8" stroke-width="0.5"/>
+      <line x1="20" y1="200" x2="380" y2="200" stroke="#EDE0C8" stroke-width="0.5"/>
+      <line x1="73" y1="73" x2="327" y2="327" stroke="#EDE0C8" stroke-width="0.5"/>
+      <line x1="327" y1="73" x2="73" y2="327" stroke="#EDE0C8" stroke-width="0.5"/>
+      <polygon points="200,20 234,107 327,73 293,166 380,200 293,234 327,327 234,293 200,380 166,293 73,327 107,234 20,200 107,166 73,73 166,107" stroke="#EDE0C8" stroke-width="0.5" fill="none"/>
+      <polygon points="200,60 223,127 293,107 273,177 340,200 273,223 293,293 223,273 200,340 177,273 107,293 127,223 60,200 127,177 107,107 177,127" stroke="#EDE0C8" stroke-width="0.5" fill="none"/>
+    </svg>
+  </div>
+</section>
+
+<!-- ── SEARCH ── -->
+<section class="section-search">
+  <h2 class="search-heading">Search the <em>Sacred Archive</em></h2>
+  <p class="search-sub">Find scriptures, shlokas, grammar rules, and assignments</p>
+  <div class="search-bar">
+    <input type="text" placeholder="Search in Sanskrit, Devanagari, or English...">
+    <button type="button">Search</button>
+  </div>
+  <div class="search-tags">
+    <span class="search-tag">Ashtadhyayi</span>
+    <span class="search-tag">Bhagavad Gita</span>
+    <span class="search-tag">Sandhi Rules</span>
+    <span class="search-tag">Vedic Hymns</span>
+    <span class="search-tag">Upanishads</span>
+    <span class="search-tag">Dhatu Roots</span>
+    <span class="search-tag">Mahabharata</span>
+  </div>
+</section>
+
+<!-- ── EXPLORE ── -->
+<section class="section-explore">
+  <div class="section-header reveal">
+    <span class="section-eyebrow">Navigate the Archive</span>
+    <h2 class="section-title">What will you <em>explore</em> today?</h2>
+    <div class="divider-ornament">✦</div>
+  </div>
+
+  <div class="explore-grid">
+    <a href="pages/scripture.html" class="explore-card reveal reveal-delay-1">
+      <span class="explore-card-count">४</span>
+      <span class="explore-card-icon">ॐ</span>
+      <div class="explore-card-title">Scripture Library</div>
+      <p class="explore-card-desc">Access the Vedas, Upanishads, Puranas, Ramayana, Mahabharata, and Gita — with original text, transliteration, and audio recitation.</p>
+      <div class="explore-card-link">Browse Texts <span>→</span></div>
+    </a>
+    <a href="pages/grammar.html" class="explore-card reveal reveal-delay-2">
+      <span class="explore-card-count">अ</span>
+      <span class="explore-card-icon">व्</span>
+      <div class="explore-card-title">Grammar & Linguistics</div>
+      <p class="explore-card-desc">Master Panini's Ashtadhyayi, sandhi, vibhakti, dhatus, and more with interactive tools for analysing and constructing Sanskrit sentences.</p>
+      <div class="explore-card-link">Learn Grammar <span>→</span></div>
+    </a>
+    <a href="pages/heritage.html" class="explore-card reveal reveal-delay-3">
+      <span class="explore-card-count">इ</span>
+      <span class="explore-card-icon">◈</span>
+      <div class="explore-card-title">Heritage & Culture</div>
+      <p class="explore-card-desc">Journey through Sanskrit's 5,000-year arc — its spread across Asia, influence on languages, temple inscriptions, and manuscript traditions.</p>
+      <div class="explore-card-link">Explore Heritage <span>→</span></div>
+    </a>
+    <a href="pages/assignments.html" class="explore-card reveal reveal-delay-4">
+      <span class="explore-card-count">प</span>
+      <span class="explore-card-icon">📜</span>
+      <div class="explore-card-title">Assignments</div>
+      <p class="explore-card-desc">Access all course assignments as interactive PDFs — viewable in-browser, downloadable, and organized by topic and semester.</p>
+      <div class="explore-card-link">View PDFs <span>→</span></div>
+    </a>
+  </div>
+</section>
+
+<!-- ── SCRIPTURE FEATURE ── -->
+<section class="section-scripture">
+  <div class="section-header reveal">
+    <span class="section-eyebrow">Featured Scripture</span>
+    <h2 class="section-title">Words that have <em>endured millennia</em></h2>
+    <div class="divider-ornament">✦</div>
+  </div>
+
+  <div class="scripture-featured">
+    <div class="scripture-text-block reveal">
+      <div class="label">Rigveda · First Mandala · First Sukta</div>
+      <div class="scripture-devanagari">
+        अग्निमीळे पुरोहितं<br>
+        यज्ञस्य देवमृत्विजम् ।<br>
+        होतारं रत्नधातमम् ॥ १ ॥
+      </div>
+      <div class="scripture-transliteration">
+        agnim īḷe purohitaṁ<br>
+        yajñasya devam ṛtvijam ।<br>
+        hotāraṁ ratnadhātamam ॥
+      </div>
+      <div class="scripture-translation">
+        "I praise Agni, the divine priest of the sacrifice, the invoker of the gods, the best bestower of treasures."
+      </div>
+      <div class="scripture-source-tag">
+        ✦ Rigveda · Mandala I · Sukta 1 · Verse 1
+      </div>
+    </div>
+    <div class="scripture-nav-panel reveal">
+      <a href="pages/scripture.html#rigveda" class="scripture-nav-item active">
+        <div class="scripture-nav-item-left">
+          <span class="dev">ऋग्वेद</span>
+          <span class="eng">Rigveda</span>
+        </div>
+        <span class="scripture-nav-item-right">10,552 hymns →</span>
+      </a>
+      <a href="pages/scripture.html#samaveda" class="scripture-nav-item">
+        <div class="scripture-nav-item-left">
+          <span class="dev">सामवेद</span>
+          <span class="eng">Samaveda</span>
+        </div>
+        <span class="scripture-nav-item-right">1,875 hymns →</span>
+      </a>
+      <a href="pages/scripture.html#yajurveda" class="scripture-nav-item">
+        <div class="scripture-nav-item-left">
+          <span class="dev">यजुर्वेद</span>
+          <span class="eng">Yajurveda</span>
+        </div>
+        <span class="scripture-nav-item-right">1,984 verses →</span>
+      </a>
+      <a href="pages/scripture.html#atharvaveda" class="scripture-nav-item">
+        <div class="scripture-nav-item-left">
+          <span class="dev">अथर्ववेद</span>
+          <span class="eng">Atharvaveda</span>
+        </div>
+        <span class="scripture-nav-item-right">5,987 mantras →</span>
+      </a>
+      <a href="pages/scripture.html#gita" class="scripture-nav-item">
+        <div class="scripture-nav-item-left">
+          <span class="dev">भगवद्गीता</span>
+          <span class="eng">Bhagavad Gita</span>
+        </div>
+        <span class="scripture-nav-item-right">700 shlokas →</span>
+      </a>
+      <a href="pages/scripture.html#upanishads" class="scripture-nav-item">
+        <div class="scripture-nav-item-left">
+          <span class="dev">उपनिषद्</span>
+          <span class="eng">Principal Upanishads</span>
+        </div>
+        <span class="scripture-nav-item-right">108 texts →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── ASSIGNMENTS SECTION ── -->
+<section class="section-assignments">
+  <div class="section-header reveal">
+    <span class="section-eyebrow">Course Materials</span>
+    <h2 class="section-title">Assignments & <em>Study Resources</em></h2>
+    <div class="divider-ornament" style="color:var(--gold);opacity:.5">✦</div>
+  </div>
+
+  <div class="assignments-layout">
+    <div class="assignments-intro reveal">
+      <h3>All your course assignments, in one place.</h3>
+      <p>PDFs are viewable directly in your browser using our built-in reader. Download, annotate, and submit — all from the archive.</p>
+      <a href="pages/assignments.html" class="btn-primary">View All Assignments →</a>
+    </div>
+    <div class="assignment-cards">
+      <a href="pages/assignments.html#unit-1" class="assignment-card reveal reveal-delay-1">
+        <div class="assignment-icon">📄</div>
+        <div class="assignment-info">
+          <div class="assignment-title">Introduction to Sanskrit Grammar — Unit 1</div>
+          <div class="assignment-meta">
+            <span class="assignment-tag">Grammar</span>
+            <span>Semester 1 · 2024</span>
+          </div>
+        </div>
+        <div class="assignment-download">↓ PDF</div>
+      </a>
+      <a href="pages/assignments.html#sandhi" class="assignment-card reveal reveal-delay-2">
+        <div class="assignment-icon">📄</div>
+        <div class="assignment-info">
+          <div class="assignment-title">Sandhi Rules — Vowel & Consonant Coalescence</div>
+          <div class="assignment-meta">
+            <span class="assignment-tag">Linguistics</span>
+            <span>Semester 1 · 2024</span>
+          </div>
+        </div>
+        <div class="assignment-download">↓ PDF</div>
+      </a>
+      <a href="pages/assignments.html#vedic-lit" class="assignment-card reveal reveal-delay-3">
+        <div class="assignment-icon">📄</div>
+        <div class="assignment-info">
+          <div class="assignment-title">Vedic Literature Survey — Mandala Analysis</div>
+          <div class="assignment-meta">
+            <span class="assignment-tag">Literature</span>
+            <span>Semester 2 · 2024</span>
+          </div>
+        </div>
+        <div class="assignment-download">↓ PDF</div>
+      </a>
+      <a href="pages/assignments.html#heritage" class="assignment-card reveal reveal-delay-4">
+        <div class="assignment-icon">📄</div>
+        <div class="assignment-info">
+          <div class="assignment-title">Heritage — Sanskrit's Influence on Southeast Asia</div>
+          <div class="assignment-meta">
+            <span class="assignment-tag">Heritage</span>
+            <span>Semester 2 · 2024</span>
+          </div>
+        </div>
+        <div class="assignment-download">↓ PDF</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ── HERITAGE TIMELINE ── -->
+<section class="section-heritage">
+  <div class="section-header reveal">
+    <span class="section-eyebrow">5,000 Years of Civilization</span>
+    <h2 class="section-title">The heritage of <em>Sanskrit</em></h2>
+    <div class="divider-ornament">✦</div>
+  </div>
+
+  <div class="heritage-two-col">
+    <div class="heritage-timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-period">c. 1500 BCE</div>
+        <div class="timeline-title">The Rigveda — World's Oldest Verse</div>
+        <div class="timeline-desc">The Rigveda is composed, making it the oldest known Indo-European religious text and one of humanity's earliest literary monuments.</div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-1">
+        <div class="timeline-period">c. 400 BCE</div>
+        <div class="timeline-title">Panini's Ashtadhyayi</div>
+        <div class="timeline-desc">Panini writes the world's first formal grammar, codifying Classical Sanskrit in 3,976 sutras — a feat of linguistic precision unmatched for centuries.</div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-2">
+        <div class="timeline-period">c. 300 BCE – 500 CE</div>
+        <div class="timeline-title">Spread Across Asia</div>
+        <div class="timeline-desc">Sanskrit travels with Buddhist and Hindu missionaries to Southeast Asia, Central Asia, and China, becoming the lingua franca of scholarship and faith.</div>
+      </div>
+      <div class="timeline-item reveal reveal-delay-3">
+        <div class="timeline-period">c. 1786 CE</div>
+        <div class="timeline-title">Sir William Jones & Comparative Linguistics</div>
+        <div class="timeline-desc">Jones's discovery of Sanskrit's connection to Greek and Latin founds modern comparative linguistics and reveals the Indo-European language family.</div>
+      </div>
+    </div>
+
+    <div class="heritage-grid-right reveal">
+      <div class="heritage-tile">
+        <div class="heritage-tile-bg">ॐ</div>
+        <div class="heritage-tile-label">Vedic Manuscripts</div>
+        <div class="heritage-tile-sub">Palm-leaf traditions</div>
+      </div>
+      <div class="heritage-tile">
+        <div class="heritage-tile-bg">ॐ</div>
+        <div class="heritage-tile-label">Temple Inscriptions</div>
+        <div class="heritage-tile-sub">Stone & copper plates</div>
+      </div>
+      <div class="heritage-tile">
+        <div class="heritage-tile-bg">ॐ</div>
+        <div class="heritage-tile-label">Kathak & Performing Arts</div>
+        <div class="heritage-tile-sub">Dance & music traditions</div>
+      </div>
+      <div class="heritage-tile">
+        <div class="heritage-tile-bg">ॐ</div>
+        <div class="heritage-tile-label">Buddhist Canons</div>
+        <div class="heritage-tile-sub">Cross-cultural heritage</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="dev">संस्कृति</span>
+      <span class="tagline">Sanskriti</span>
+      <p>A living archive dedicated to preserving, exploring, and celebrating Sanskrit — the ancient language of Hindu, Buddhist, and Jain traditions, and a bridge to understanding our shared heritage.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="pages/scripture.html">Scriptures</a></li>
+        <li><a href="pages/grammar.html">Grammar</a></li>
+        <li><a href="pages/heritage.html">Heritage</a></li>
+        <li><a href="pages/assignments.html">Assignments</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <ul>
+        <li><a href="pages/grammar.html">Panini's System</a></li>
+        <li><a href="pages/grammar.html#sandhi">Sandhi Rules</a></li>
+        <li><a href="pages/dictionary.html">Dictionary</a></li>
+        <li><a href="pages/scripture.html">Vedic Texts</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Sanskriti Archive. All rights reserved.</p>
+    <span class="dev-line">संस्कृति नित्यं जीवन्तम्</span>
+  </div>
+</footer>
+
+<!-- ── SCRIPTS ── -->
+<!-- Scroll reveal animations -->
+<script src="js/scroll-reveals.js"></script>
+
+<!-- Navigation menu toggle and active link highlighting -->
+<script src="js/navigation.js"></script>
+
+<!-- Client-side search functionality -->
+<script src="js/search.js"></script>
+
+</body>
+</html>

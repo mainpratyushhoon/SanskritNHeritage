@@ -1,0 +1,15 @@
+/* ────────────────────────────────────────────────────────────
+   STYLES.CSS — Main entry point, imports all modular CSS
+   ──────────────────────────────────────────────────────────── */
+
+/* Import font preloads and variables */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Noto+Serif+Devanagari:wght@300;400;600&family=Crimson+Pro:ital,wght@0,300;0,400;1,300&display=swap');
+
+/* Core design system */
+@import 'variables.css';
+@import 'components.css';
+@import 'layout.css';
+@import 'animations.css';
+
+/* Responsive breakpoints (mobile-first) */
+@import 'responsive.css';

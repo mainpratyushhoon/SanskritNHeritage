@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Scripture Library — Explore the Vedas, Upanishads, Puranas, and other sacred texts with translations and commentary.">
+  <meta name="theme-color" content="#C8520A">
+  <title>Scripture Library — Sanskriti</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" href="../css/styles.css">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>संस्कृति</text></svg>">
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav>
+  <div class="nav-logo">
+    <span class="devanagari">संस्कृति</span>
+    <span class="roman">Sanskriti</span>
+  </div>
+  <button class="nav-toggle" aria-label="Toggle navigation menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul>
+    <li><a href="scripture.html">Scripture</a></li>
+    <li><a href="grammar.html">Grammar</a></li>
+    <li><a href="heritage.html">Heritage</a></li>
+    <li><a href="assignments.html">Assignments</a></li>
+    <li><a href="dictionary.html">Dictionary</a></li>
+    <li><a href="../index.html" class="nav-cta">Home</a></li>
+  </ul>
+</nav>
+
+<!-- ── PAGE HEADER ── -->
+<section style="padding: 12rem 4rem 6rem; background: var(--cream); text-align: center; margin-top: 80px;">
+  <p style="font-family: var(--font-display); font-size: 0.75rem; letter-spacing: 0.35em; text-transform: uppercase; color: var(--saffron); margin-bottom: 1.5rem;">Sacred Texts</p>
+  <h1 class="section-title">Scripture <em>Library</em></h1>
+  <p style="font-size: 1.1rem; color: var(--earth-light); max-width: 50ch; margin: 2rem auto 0; line-height: 1.7;">Browse our collection of Sanskrit scriptures with original text, translations, transliterations, and scholarly commentary.</p>
+</section>
+
+<!-- ── FILTER SECTION ── -->
+<section style="padding: 4rem; background: var(--cream); border-bottom: 1px solid rgba(184, 134, 11, 0.2);">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <h2 style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--earth);">Filter by Category</h2>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <button style="padding: 0.6rem 1.2rem; background: var(--saffron); color: white; border: none; border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">All Texts</button>
+      <button style="padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--earth-light); color: var(--earth); border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">Vedas</button>
+      <button style="padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--earth-light); color: var(--earth); border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">Upanishads</button>
+      <button style="padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--earth-light); color: var(--earth); border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">Epics</button>
+      <button style="padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--earth-light); color: var(--earth); border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">Sutras</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── SCRIPTURE GRID ── -->
+<section style="padding: 4rem; background: var(--cream);">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem;">
+      
+      <!-- Scripture Card Template -->
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Veda</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">ऋग्वेद</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Rigveda</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The oldest of the four Vedas, containing 10,552 hymns organized into 10 Mandalas (circles). A foundational text of Hinduism and Indo-European civilization.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">📖 10,552 hymns | 📅 c. 1500 BCE</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Explore →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Veda</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">सामवेद</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Samaveda</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The Veda of melodies and music, derived largely from the Rigveda. Contains chants to be sung during rituals and sacrifices.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">🎵 1,875 hymns | 📅 c. 1500 BCE</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Explore →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Veda</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">यजुर्वेद</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Yajurveda</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The Veda of ritual instructions, containing both prose mantras and sacrificial formulas. Essential for performing Vedic ceremonies and Yajna.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">🔥 1,984 verses | 📅 c. 1500 BCE</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Explore →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Veda</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">अथर्ववेद</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Atharvaveda</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The youngest of the four Vedas, containing wisdom hymns and practical applications of Vedic knowledge for daily life and healing.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">✨ 5,987 mantras | 📅 c. 1200 BCE</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Explore →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Epic</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">भगवद्गीता</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Bhagavad Gita</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">A spiritual dialogue between Krishna and Arjuna within the Mahabharata. A cornerstone of Hindu philosophy addressing dharma, yoga, and the nature of reality.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">📚 700 shlokas | 📅 c. 400 BCE</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Explore →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Philosophy</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">उपनिषद्</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Principal Upanishads</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The philosophical teachings at the end of the Vedas, exploring the nature of Brahman, Atman (self), and ultimate reality through profound dialogues.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">🧘 108 texts | 📅 c. 800-500 BCE</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Explore →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="dev">संस्कृति</span>
+      <span class="tagline">Sanskriti</span>
+      <p>A living archive dedicated to preserving, exploring, and celebrating Sanskrit — the ancient language of Hindu, Buddhist, and Jain traditions, and a bridge to understanding our shared heritage.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="scripture.html">Scriptures</a></li>
+        <li><a href="grammar.html">Grammar</a></li>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <ul>
+        <li><a href="grammar.html">Panini's System</a></li>
+        <li><a href="grammar.html#sandhi">Sandhi Rules</a></li>
+        <li><a href="dictionary.html">Dictionary</a></li>
+        <li><a href="scripture.html">Vedic Texts</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Sanskriti Archive. All rights reserved.</p>
+    <span class="dev-line">संस्कृति नित्यं जीवन्तम्</span>
+  </div>
+</footer>
+
+<!-- ── SCRIPTS ── -->
+<script src="../js/scroll-reveals.js"></script>
+<script src="../js/navigation.js"></script>
+<script src="../js/search.js"></script>
+
+</body>
+</html>

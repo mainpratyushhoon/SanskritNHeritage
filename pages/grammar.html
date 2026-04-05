@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Grammar Tools — Master Panini's Ashtadhyayi, sandhi rules, vibhakti cases, and Sanskrit linguistics with interactive tools.">
+  <meta name="theme-color" content="#C8520A">
+  <title>Grammar & Linguistics — Sanskriti</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="stylesheet" href="../css/styles.css">
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>संस्कृति</text></svg>">
+</head>
+<body>
+
+<!-- ── NAVIGATION ── -->
+<nav>
+  <div class="nav-logo">
+    <span class="devanagari">संस्कृति</span>
+    <span class="roman">Sanskriti</span>
+  </div>
+  <button class="nav-toggle" aria-label="Toggle navigation menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <ul>
+    <li><a href="scripture.html">Scripture</a></li>
+    <li><a href="grammar.html">Grammar</a></li>
+    <li><a href="heritage.html">Heritage</a></li>
+    <li><a href="assignments.html">Assignments</a></li>
+    <li><a href="dictionary.html">Dictionary</a></li>
+    <li><a href="../index.html" class="nav-cta">Home</a></li>
+  </ul>
+</nav>
+
+<!-- ── PAGE HEADER ── -->
+<section style="padding: 12rem 4rem 6rem; background: var(--cream); text-align: center; margin-top: 80px;">
+  <p style="font-family: var(--font-display); font-size: 0.75rem; letter-spacing: 0.35em; text-transform: uppercase; color: var(--saffron); margin-bottom: 1.5rem;">Linguistic Mastery</p>
+  <h1 class="section-title">Grammar & <em>Linguistics</em></h1>
+  <p style="font-size: 1.1rem; color: var(--earth-light); max-width: 50ch; margin: 2rem auto 0; line-height: 1.7;">Master Panini's Ashtadhyayi, the world's first formal grammar system. Learn sandhi rules, vibhakti cases, verbal roots, and linguistic analysis.</p>
+</section>
+
+<!-- ── FILTER SECTION ── -->
+<section style="padding: 4rem; background: var(--cream); border-bottom: 1px solid rgba(184, 134, 11, 0.2);">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <h2 style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 1.5rem; color: var(--earth);">Grammar Concepts</h2>
+    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+      <button style="padding: 0.6rem 1.2rem; background: var(--saffron); color: white; border: none; border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">All Topics</button>
+      <button style="padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--earth-light); color: var(--earth); border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">Sandhi Rules</button>
+      <button style="padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--earth-light); color: var(--earth); border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">Vibhakti</button>
+      <button style="padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--earth-light); color: var(--earth); border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">Dhatu</button>
+      <button style="padding: 0.6rem 1.2rem; background: white; border: 1px solid var(--earth-light); color: var(--earth); border-radius: 20px; cursor: pointer; font-family: var(--font-display); font-size: 0.85rem;">Ashtadhyayi</button>
+    </div>
+  </div>
+</section>
+
+<!-- ── GRAMMAR GRID ── -->
+<section style="padding: 4rem; background: var(--cream);">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 2rem;">
+      
+      <!-- Grammar Card Template -->
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Phonology</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">संधि</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Sandhi Rules</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">Rules governing the combinations or junctions of sounds at word or morpheme boundaries. Includes vowel sandhi, consonant sandhi, and visarga sandhi.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">📖 32 major rules | ⏱️ Essential for reading</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Learn →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Morphology</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">विभक्ति</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Vibhakti (Cases)</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The eight case endings that indicate the grammatical relationships of nouns and pronouns. Each vibhakti has specific meanings and uses in Sanskrit.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">📚 8 cases | 🎯 Foundation of syntax</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Learn →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Verbal System</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">धातु</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Dhatu (Verbal Roots)</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The fundamental roots from which all Sanskrit verbs are derived. A systematic study of verbal stems, tenses, moods, and conjugation patterns.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">📖 ~2000 roots | 🔄 Multiple tenses</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Learn →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Grammar</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">अष्टाध्यायी</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Ashtadhyayi of Panini</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The world's first formal grammar system, composed c. 400 BCE. Panini's masterwork of linguistic precision containing 3,976 sutras (aphorisms).</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">📚 3,976 sutras | 🏆 Revolutionary system</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Learn →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Analysis</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">पद विश्लेषण</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Word Analysis</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">Breaking down Sanskrit words into their constituent morphemes. Learn to identify prefixes, roots, suffixes, and the grammatical structure of any word.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">🔍 Morphological analysis | 📖 Essential skill</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Learn →</a>
+      </div>
+
+      <div style="background: var(--cream-dark); border: 1px solid rgba(184, 134, 11, 0.2); border-radius: 4px; padding: 2rem; cursor: pointer; transition: all 0.3s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 15px 40px rgba(44, 26, 14, 0.15)'" onmouseout="this.style.transform='none'; this.style.boxShadow='none'">
+        <div style="font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--saffron); margin-bottom: 0.8rem;">Composition</div>
+        <h3 style="font-family: var(--font-devanagari); font-size: 1.4rem; color: var(--earth-mid); margin-bottom: 0.25rem;">समास</h3>
+        <h4 style="font-family: var(--font-display); font-size: 1rem; color: var(--earth); margin-bottom: 1rem;">Samasa (Compounds)</h4>
+        <p style="font-size: 0.95rem; color: var(--earth-light); line-height: 1.6; margin-bottom: 1rem;">The Sanskrit system of compound word formation. Six major types of compounds with different grammatical relationships and rules for formation.</p>
+        <div style="font-size: 0.85rem; color: var(--earth-light); margin-bottom: 1.5rem;">📚 6 types | 🔗 Word composition</div>
+        <a href="#" style="color: var(--saffron); text-decoration: none; font-family: var(--font-display); font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase;">Learn →</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="dev">संस्कृति</span>
+      <span class="tagline">Sanskriti</span>
+      <p>A living archive dedicated to preserving, exploring, and celebrating Sanskrit — the ancient language of Hindu, Buddhist, and Jain traditions, and a bridge to understanding our shared heritage.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="scripture.html">Scriptures</a></li>
+        <li><a href="grammar.html">Grammar</a></li>
+        <li><a href="heritage.html">Heritage</a></li>
+        <li><a href="assignments.html">Assignments</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <ul>
+        <li><a href="grammar.html">Panini's System</a></li>
+        <li><a href="grammar.html#sandhi">Sandhi Rules</a></li>
+        <li><a href="dictionary.html">Dictionary</a></li>
+        <li><a href="scripture.html">Vedic Texts</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Sanskriti Archive. All rights reserved.</p>
+    <span class="dev-line">संस्कृति नित्यं जीवन्तम्</span>
+  </div>
+</footer>
+
+<!-- ── SCRIPTS ── -->
+<script src="../js/scroll-reveals.js"></script>
+<script src="../js/navigation.js"></script>
+<script src="../js/search.js"></script>
+
+</body>
+</html>
