@@ -1,12 +1,12 @@
-# Sanskriti — The Living Archive of Sanskrit
+# Sanskrit Knowledge Ecosystem Website
 
-A modern, responsive multi-page static website dedicated to exploring Sanskrit scriptures, grammar, heritage, and cultural traditions.
+A modern, responsive multi-page static website documenting the Sanskrit Knowledge Ecosystem — institutions, learning systems, archival resources, journals, funding, and recognition in Sanskrit studies.
 
 ## 📋 Project Overview
 
-Sanskriti is a comprehensive digital archive designed to make the Sanskrit language, its scriptures, grammar systems, and cultural heritage accessible to scholars, students, and enthusiasts worldwide. Built as a responsive static site with vanilla HTML, CSS, and JavaScript.
+The Sanskrit Knowledge Ecosystem website is a structured digital portal for the Sanskrit Knowledge Ecosystem project, covering all 15 required topics in a way that is easy to navigate, visually organized, and presentation-friendly. Built as a responsive static site with vanilla HTML, CSS, and JavaScript.
 
-**Status:** Phase 1 MVP Complete ✅
+**Status:** Core site structure implemented (Step 1 of plan) ✅
 
 ---
 
@@ -14,14 +14,20 @@ Sanskriti is a comprehensive digital archive designed to make the Sanskrit langu
 
 ```
 SanskritNHeritage/
-├── index.html                 # Homepage
+├── index.html                 # Homepage and ecosystem overview
+├── plan.md                    # Project plan and implementation guide
 ├── pages/
-│   ├── scripture.html         # Scripture Library
-│   ├── grammar.html           # Grammar & Linguistics Tools
-│   ├── heritage.html          # Heritage & History
-│   ├── assignments.html       # Course Materials/Assignments
-│   ├── dictionary.html        # Sanskrit Dictionary
-│   └── search-results.html    # Search Results Page (placeholder)
+│   ├── indian-institutions.html   # Topics 1 & 2: Sanskrit universities and departments
+│   ├── global-programs.html       # Topics 3-6: Global Sanskrit programs
+│   ├── learning-systems.html      # Topics 7-9: Traditional and online learning
+│   ├── libraries-research.html    # Topics 10-12: Libraries, digitization, journals
+│   ├── awards-funding.html        # Topics 13-14: Honors and scholarships
+│   ├── methodology.html           # Topic 15: Research process and methodology
+│   ├── scripture.html             # Legacy: Scripture Library (original content)
+│   ├── grammar.html               # Legacy: Grammar & Linguistics Tools
+│   ├── heritage.html              # Legacy: Heritage & History
+│   ├── assignments.html           # Legacy: Course Materials/Assignments
+│   └── dictionary.html            # Legacy: Sanskrit Dictionary
 ├── css/
 │   ├── styles.css             # Main entry point (imports all)
 │   ├── variables.css          # Design tokens (colors, typography, spacing)
@@ -132,12 +138,20 @@ Fully responsive with:
 
 ## 📊 Pages Included
 
-1. **index.html** - Hero section, search, 4 main categories, featured scripture, timeline
-2. **pages/scripture.html** - Scripture library with filter options and grid
-3. **pages/grammar.html** - Grammar concepts with detailed cards
-4. **pages/heritage.html** - Timeline and heritage categories
-5. **pages/assignments.html** - Course materials and assignments list
-6. **pages/dictionary.html** - Sanskrit dictionary with sample entries
+1. **index.html** - Project homepage with ecosystem overview, topic grid, and research highlights
+2. **pages/indian-institutions.html** - Topics 1 & 2: Sanskrit universities and departments in India
+3. **pages/global-programs.html** - Topics 3-6: Sanskrit programs in Americas, Europe, SE Asia, Africa/Australia
+4. **pages/learning-systems.html** - Topics 7-9: Traditional gurukulas, non-formal organizations, online platforms
+5. **pages/libraries-research.html** - Topics 10-12: Sanskrit libraries, digitization initiatives, academic journals
+6. **pages/awards-funding.html** - Topics 13-14: Honors, awards, scholarships, and research funding
+7. **pages/methodology.html** - Topic 15: Research workflow, source verification, and content organization
+
+### Legacy Pages (Original Content)
+- **pages/scripture.html** - Scripture library with Vedic texts
+- **pages/grammar.html** - Grammar concepts and Panini's system
+- **pages/heritage.html** - Sanskrit heritage and historical timeline
+- **pages/assignments.html** - Course materials and assignments
+- **pages/dictionary.html** - Sanskrit dictionary entries
 
 ---
 
@@ -174,18 +188,45 @@ Fully responsive with:
 
 ---
 
-## 🚦 Next Steps (Phase 2)
+## 🚦 Next Steps (Implementation Plan)
 
-- [ ] Integrate real Sanskrit texts and translations
-- [ ] Build PDF viewer for assignments
-- [ ] Expand dictionary with comprehensive entries
-- [ ] Add imagery and visual assets
-- [ ] Implement advanced search with indexing
-- [ ] Add audio pronunciation guide
-- [ ] Consider CMS integration for content management
+### Phase 2: Content Framework (Step 2)
+- [ ] Add topic headings and scope blocks to each major page
+- [ ] Add placeholder cards and tables for each topic
+- [ ] Create source sections on every page
+
+### Phase 3: Data Population (Steps 3-6)
+- [ ] Fill Indian institutions with real university data
+- [ ] Populate global programs across regions
+- [ ] Add learning systems content
+- [ ] Include libraries, digitization, and research details
+- [ ] Add awards and funding information
+- [ ] Complete methodology documentation
+
+### Phase 4: Final Polish (Step 7)
+- [ ] Verify all external links and citations
+- [ ] Normalize citations across pages
+- [ ] Add report/PPT links if available
+- [ ] Review mobile responsiveness
+- [ ] Proofread for consistency
 
 ---
 
-## 📄 Version
+## � Project Plan
 
-**v1.0.0** - Initial MVP Release (April 2026)
+See `plan.md` for the detailed implementation plan, including:
+- Recommended site structure and navigation
+- Page patterns and reusable components
+- Data collection templates
+- Implementation phases and timeline
+- Source and citation guidelines
+
+---
+
+## �📄 Version
+
+**v1.1.0** - Site Structure Update (April 2026)
+- Restructured navigation for Sanskrit Knowledge Ecosystem
+- Added 6 new major section pages
+- Updated all footers for consistency
+- Maintained responsive design and existing features
