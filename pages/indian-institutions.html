@@ -1,93 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Indian Institutions — Sanskrit universities and departments in India.">
-  <meta name="theme-color" content="#C8520A">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Indian Institutions — Sanskrit universities and Sanskrit departments in Indian universities." />
+  <meta name="theme-color" content="#C8520A" />
+
   <title>Indian Institutions — Sanskrit Knowledge Ecosystem</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="../css/styles.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-sA+e2b/JyU5Wv2gTwv1yFKhPeBv3BFY6Nek4+o4r2u8=" crossorigin="" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>संस्कृति</text></svg>">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link rel="stylesheet" href="../css/styles.css" />
+
+  <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+    integrity="sha256-sA+e2b/JyU5Wv2gTwv1yFKhPeBv3BFY6Nek4+o4r2u8=" 
+    crossorigin="" 
+  />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>संस्कृति</text></svg>" />
+
+  <style>
+    /* Global Content Resets for Layout Safety */
+    * {
+      box-sizing: border-box;
+    }
+
+    .page-wrapper {
+      width: min(1400px, 92%);
+      margin: 0 auto;
+    }
+
+    .page-hero {
+      padding: 10rem 0 5rem;
+      background: linear-gradient(
+        180deg,
+        rgba(200, 82, 10, 0.06),
+        rgba(250, 245, 238, 1)
+      );
+      border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    }
+
+    .hero-content {
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hero-description {
+      max-width: 75ch;
+      margin: 1.5rem auto 0;
+      line-height: 1.8;
+      color: var(--earth-light);
+      font-size: 1.05rem;
+      text-align: center;
+    }
+
+    .page-main {
+      padding: 5rem 0;
+    }
+
+    .section-block {
+      margin-bottom: 5rem;
+      text-align: left;
+    }
+
+    .section-header {
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+
+    .section-title {
+      margin: 0.5rem 0 1rem;
+    }
+
+    .section-description {
+      max-width: 80ch;
+      color: var(--earth-light);
+      line-height: 1.8;
+      margin: 0;
+      text-align: left;
+    }
+
+    .highlight-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .highlight-card {
+      background: white;
+      border-radius: 1.25rem;
+      padding: 1.75rem;
+      border: 1px solid rgba(0, 0, 0, 0.06);
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.04);
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    .highlight-card h3 {
+      margin: 0 0 0.75rem 0;
+      color: var(--saffron);
+    }
+
+    .highlight-card p {
+      margin: 0;
+      line-height: 1.6;
+      color: inherit;
+    }
+
+    .map-container {
+      width: 100%;
+      height: 650px;
+      border-radius: 1.5rem;
+      overflow: hidden;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+      margin-top: 2rem;
+    }
+
+    #india-map {
+      width: 100%;
+      height: 100%;
+    }
+
+    .data-section {
+      margin-top: 4rem;
+    }
+
+    .loading-state {
+      text-align: center;
+      padding: 5rem 2rem;
+      color: var(--earth-light);
+    }
+
+    .info-banner {
+      background: rgba(200, 82, 10, 0.06);
+      border-left: 5px solid var(--saffron);
+      padding: 1.5rem 2rem;
+      border-radius: 0 1rem 1rem 0;
+      margin-top: 2.5rem;
+      text-align: left;
+    }
+
+    .info-banner p {
+      margin: 0;
+      line-height: 1.7;
+      text-align: left;
+    }
+
+    @media (max-width: 768px) {
+      .page-hero {
+        padding: 8rem 0 4rem;
+      }
+
+      .page-main {
+        padding: 4rem 0;
+      }
+
+      .map-container {
+        height: 450px;
+      }
+
+      .hero-description, .section-description {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
+
 <body>
-<nav>
-  <div class="nav-logo">
-    <span class="devanagari">संस्कृति</span>
-    <span class="roman">Sanskriti</span>
-  </div>
-  <button class="nav-toggle" aria-label="Toggle navigation menu">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  <ul>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="indian-institutions.html">Indian Institutions</a></li>
-    <li><a href="global-programs.html">Global Programs</a></li>
-    <li><a href="learning-systems.html">Learning Systems</a></li>
-    <li><a href="libraries-research.html">Libraries & Research</a></li>
-    <li><a href="awards-funding.html">Awards & Funding</a></li>
-    <li><a href="methodology.html">Methodology</a></li>
-  </ul>
-</nav>
-<section class="page-hero" style="padding: 10rem 4rem 4rem; background: var(--cream);">
-  <div style="max-width: 900px; margin: 0 auto; text-align: center;">
-    <p class="section-eyebrow">Topic 1 & 2</p>
-    <h1 class="section-title">Indian Institutions</h1>
-    <p style="max-width: 60ch; margin: 1.5rem auto 0; color: var(--earth-light);">A structured overview of Sanskrit universities and university departments in India, with academic programs, research centers, and department specializations.</p>
-  </div>
-</section>
-<main style="padding: 4rem;">
-  <div id="india-institutions-root"></div>
-</main>
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <span class="dev">संस्कृति</span>
-      <span class="tagline">Sanskriti</span>
-      <p>A living archive dedicated to preserving, exploring, and celebrating Sanskrit — the ancient language of Hindu, Buddhist, and Jain traditions, and a bridge to understanding our shared heritage.</p>
+
+  <nav>
+    <div class="nav-logo">
+      <span class="devanagari">संस्कृति</span>
+      <span class="roman">Sanskriti</span>
     </div>
-    <div class="footer-col">
-      <h4>Explore</h4>
-      <ul>
-        <li><a href="indian-institutions.html">Indian Institutions</a></li>
-        <li><a href="global-programs.html">Global Programs</a></li>
-        <li><a href="learning-systems.html">Learning Systems</a></li>
-        <li><a href="libraries-research.html">Libraries & Research</a></li>
-        <li><a href="awards-funding.html">Awards & Funding</a></li>
-      </ul>
+
+    <button class="nav-toggle" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="indian-institutions.html" class="active">Indian Institutions</a></li>
+      <li><a href="global-programs.html">Global Programs</a></li>
+      <li><a href="learning-systems.html">Learning Systems</a></li>
+      <li><a href="libraries-research.html">Libraries & Research</a></li>
+      <li><a href="awards-funding.html">Awards & Funding</a></li>
+      <li><a href="methodology.html">Methodology</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-hero">
+    <div class="page-wrapper">
+      <div class="hero-content">
+        <p class="section-eyebrow">Topics 1 & 2</p>
+        <h1 class="section-title">Indian Institutions</h1>
+        
+        <p class="hero-description">
+          A structured academic overview of Sanskrit universities, traditional centers of learning, and Sanskrit departments within Indian universities. This section documents academic programs, institutional specialization, manuscript resources, interdisciplinary collaborations, and research ecosystems related to Sanskrit studies across India.
+        </p>
+
+        <div class="highlight-grid">
+          <article class="highlight-card">
+            <h3>Universities</h3>
+            <p>Dedicated Sanskrit universities across central and state systems.</p>
+          </article>
+
+          <article class="highlight-card">
+            <h3>Departments</h3>
+            <p>Sanskrit departments inside multidisciplinary universities.</p>
+          </article>
+
+          <article class="highlight-card">
+            <h3>Research</h3>
+            <p>Centers focused on manuscripts, shastras, linguistics, and IKS.</p>
+          </article>
+
+          <article class="highlight-card">
+            <h3>Programs</h3>
+            <p>Academic pathways from Shastri to doctoral research.</p>
+          </article>
+        </div>
+      </div>
     </div>
-    <div class="footer-col">
-      <h4>Learn</h4>
-      <ul>
-        <li><a href="grammar.html">Panini's System</a></li>
-        <li><a href="grammar.html#sandhi">Sandhi Rules</a></li>
-        <li><a href="dictionary.html">Dictionary</a></li>
-        <li><a href="scripture.html">Vedic Texts</a></li>
-      </ul>
+  </header>
+
+  <main class="page-main">
+    <div class="page-wrapper">
+
+      <section class="section-block reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Scope & Purpose</p>
+          <h2 class="section-title">Sanskrit Higher Education in India</h2>
+          <p class="section-description">
+            India hosts a wide ecosystem of Sanskrit institutions ranging from dedicated Sanskrit universities to departments embedded within multidisciplinary institutions. These institutions contribute to textual preservation, pedagogy, manuscriptology, Indian Knowledge Systems (IKS), computational linguistics, Vedic studies, and interdisciplinary Sanskrit research.
+          </p>
+        </div>
+
+        <div class="info-banner">
+          <p>
+            This section combines institution directories, academic program details, geographic distribution, specialization areas, and research infrastructure into a unified digital reference system.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-block reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Geographic Distribution</p>
+          <h2 class="section-title">Sanskrit Institutions Across India</h2>
+          <p class="section-description">
+            The interactive map below visualizes major Sanskrit universities and institutional centers documented in this project dataset.
+          </p>
+        </div>
+
+        <div class="map-container">
+          <div id="india-map"></div>
+        </div>
+      </section>
+
+      <section class="section-block data-section reveal">
+        <div class="section-header">
+          <p class="section-eyebrow">Institution Directory</p>
+          <h2 class="section-title">Universities & Departments</h2>
+          <p class="section-description">
+            Browse structured institution records, academic offerings, specialization domains, and research units across Sanskrit universities and departments in India.
+          </p>
+        </div>
+
+        <div id="india-institutions-root" class="loading-state">
+          <p>Loading institution database...</p>
+        </div>
+      </section>
+
     </div>
-    <div class="footer-col">
-      <h4>Connect</h4>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Community</a></li>
-        <li><a href="#">Support</a></li>
-      </ul>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="dev">संस्कृति</span>
+        <span class="tagline">Sanskriti</span>
+        <p>
+          A living archive dedicated to preserving, exploring, and celebrating Sanskrit — the ancient language of Hindu, Buddhist, and Jain traditions and a bridge to understanding India's intellectual heritage.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="indian-institutions.html">Indian Institutions</a></li>
+          <li><a href="global-programs.html">Global Programs</a></li>
+          <li><a href="learning-systems.html">Learning Systems</a></li>
+          <li><a href="libraries-research.html">Libraries & Research</a></li>
+          <li><a href="awards-funding.html">Awards & Funding</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="grammar.html">Panini's System</a></li>
+          <li><a href="grammar.html#sandhi">Sandhi Rules</a></li>
+          <li><a href="dictionary.html">Dictionary</a></li>
+          <li><a href="scripture.html">Vedic Texts</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Project</h4>
+        <ul>
+          <li><a href="methodology.html">Methodology</a></li>
+          <li><a href="#">Sources</a></li>
+          <li><a href="#">Report / PPT</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; 2026 Sanskriti Archive. All rights reserved.</p>
-    <span class="dev-line">संस्कृति नित्यं जीवन्तम्</span>
-  </div>
-</footer>
-<script src="../js/data-loader.js"></script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-o9N1j8+0Ix7f0Z8iJt3zZHv1kGBZc6U27Yx75cmE0nE=" crossorigin=""></script>
-<script src="../js/institution-map.js"></script>
-<script src="../js/render-indian-institutions.js"></script>
-<script src="../js/navigation.js"></script>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sanskrit Knowledge Ecosystem</p>
+      <span class="dev-line">संस्कृति नित्यं जीवन्तम्</span>
+    </div>
+  </footer>
+
+  <script defer src="../js/data-loader.js"></script>
+
+  <script 
+    defer 
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
+    integrity="sha256-o9N1j8+0Ix7f0Z8iJt3zZHv1kGBZc6U27Yx75cmE0nE=" 
+    crossorigin=""
+  ></script>
+
+  <script defer src="../js/institution-map.js"></script>
+
+  <script defer src="../js/render-indian-institutions.js"></script>
+
+  <script defer src="../js/navigation.js"></script>
+
+  <script defer src="../js/scroll-reveals.js"></script>
+
+  
+
 </body>
 </html>
