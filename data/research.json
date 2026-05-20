@@ -1,0 +1,72 @@
+{
+  "page_title": "Libraries and Research Platforms",
+  "section_a_libraries_and_archives": {
+    "description": "Repositories preservation databases safeguarding rare books, prints, and traditional palm-leaf manuscripts.",
+    "repositories": [
+      {
+        "library_archive_name": "Sarasvati Bhavana Granthagar",
+        "location": "Varanasi, Uttar Pradesh, India",
+        "website": "http://www.ssvv.ac.in/facilities.php?id=library",
+        "collection_type": "Over 100,000 rare Sanskrit manuscripts covering Vedas, Tantra, Nyaya, and Mimamsa.",
+        "digitization_status": "Highly advanced microfilming and systematic digital capture phases under progress.",
+        "access_rules": "Open to bonafide academic researchers and international Indology scholars upon formal application.",
+        "preservation_notes": "Utilizes specialized indigenous insect repellents alongside contemporary temperature-controlled archival shielding units."
+      },
+      {
+        "library_archive_name": "Ganganath Jha Campus Library (CSU Branch)",
+        "location": "Prayagraj, Uttar Pradesh, India",
+        "website": "https://www.sanskrit.nic.in/prayagraj_campus.php",
+        "collection_type": "Substantial repository of unique north-Indian Sanskrit texts, rare paper manuscripts, and critical commentaries.",
+        "digitization_status": "Partially cataloged in state digital indexes.",
+        "access_rules": "Accessible via Central Sanskrit University institutional clearance pathways.",
+        "preservation_notes": "Ongoing physical restoration projects managed by professional conservators."
+      }
+    ]
+  },
+  "section_b_digitization_initiatives": {
+    "description": "Global scale manuscript recovery and transcription actions utilizing high-tech standards.",
+    "initiatives": [
+      {
+        "initiative_name": "National Mission for Manuscripts (NMM)",
+        "lead_institution": "Ministry of Culture, Government of India",
+        "official_link": "https://www.namami.gov.in",
+        "manuscripts_targeted": "Extensive mapping of all active manuscript repositories nationwide, covering millions of pages.",
+        "digitization_level": "National standard metadata repository with ongoing full-text high-resolution image uploads.",
+        "technology_standards": "TIFF/JPEG master formats conforming to national archiving parameters.",
+        "access_model": "Public metadata catalog available online; direct image views restricted based on localized institutional agreements."
+      },
+      {
+        "initiative_name": "ERC Śivadharma Project",
+        "lead_institution": "Eötvös Loránd University (ELTE) Budapest, in collaboration with European research units",
+        "official_link": "https://ind.elte.hu/en/content/the-erc-shivadharma-project",
+        "manuscripts_targeted": "Texts associated with the history of Shaivism, specifically the Śivadharma corpus.",
+        "digitization_level": "Critical digital text collation, manuscript transcription, and multi-version analysis.",
+        "technology_standards": "TEI (Text Encoding Initiative) XML formatting paradigms for digital humanities integration.",
+        "access_model": "Open Access scholarly publications and shared digital text transcriptions."
+      }
+    ]
+  },
+  "section_c_academic_journals": {
+    "description": "Peer-reviewed publication vectors and major specialized book houses shaping the field of Indology.",
+    "journals_and_publishers": [
+      {
+        "journal_publisher_name": "Cracow Indological Studies",
+        "subject_focus": "Sanskrit literature, ancient history, linguistic interpretation, South Asian philosophy",
+        "website": "https://akademicka.pl/cis",
+        "access_type": "Open Access / Print Subscriptions available",
+        "submission_details": "Requires adherence to international transliteration criteria (IAST); double-blind peer review.",
+        "review_process": "Double-blind peer review framework",
+        "special_strength": "Prominent European publication node bridging contemporary thematic critique with classical Sanskrit philology."
+      },
+      {
+        "journal_publisher_name": "Murty Classical Library of India",
+        "subject_focus": "High-quality critical printing and translation of classical heritage texts",
+        "website": "https://www.murtylibrary.com",
+        "access_type": "Subscription / Commercial Print Purchase",
+        "submission_details": "Commissioned translations by top global subject matter authorities.",
+        "review_process": "Editorial board rigorous review",
+        "special_strength": "Pioneering the juxtaposition of original Sanskrit text in the Devanagari script side-by-side with modern, accessible English translations."
+      }
+    ]
+  }
+}

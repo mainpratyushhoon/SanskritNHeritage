@@ -1,0 +1,541 @@
+{
+  "page_title": "Indian Institutions",
+  "section_a_sanskrit_universities": {
+    "description": "Directory of dedicated Central and State Sanskrit Universities in India.",
+    "presentation_formats_supported": [
+      "institution_cards",
+      "comparison_table",
+      "india_state_map"
+    ],
+    "universities": [
+      {
+        "university_name": "Central Sanskrit University (CSU)",
+        "state": "Delhi",
+        "lat": 28.6139,
+        "lng": 77.2090,
+        "official_website": "https://www.sanskrit.nic.in",
+        "founding_year": 1970,
+        "type_of_institution": "Central University (Upgraded via Act No. 5 of 2020)",
+        "programs_offered": [
+          "Prak-Shastri (+2)",
+          "Shastri (BA)",
+          "Shiksha Shastri (BEd)",
+          "Acharya (MA)",
+          "Shikshacharya (MEd)",
+          "Vidya-Varidhi (PhD)"
+        ],
+        "departments_schools": [
+          "Veda-Vedanga Vibhaga",
+          "Sahitya Vibhaga",
+          "Darshana Vibhaga",
+          "Vyakarana Vibhaga",
+          "Modern Subjects Division"
+        ],
+        "specialization_areas": [
+          "Vyakarana",
+          "Sahitya",
+          "Darshana",
+          "Veda",
+          "Jyotisha",
+          "Dharma Shastra",
+          "Computational Linguistics"
+        ],
+        "notable_centers_research_units": "Mukta Swadhyaya Peetham (MSP) Distance Education Wing, Ganganath Jha Campus Manuscript Repository (Prayagraj)"
+      },
+      {
+        "university_name": "National Sanskrit University (NSU)",
+        "state": "Andhra Pradesh",
+        "lat": 13.6288,
+        "lng": 79.4192,
+        "official_website": "https://nsktu.ac.in",
+        "founding_year": 1962,
+        "type_of_institution": "Central University (Upgraded 2020)",
+        "programs_offered": [
+          "Shastri (BA)",
+          "Acharya (MA)",
+          "Vidya-Varidhi (PhD)",
+          "Yogic Science Diplomas"
+        ],
+        "departments_schools": [
+          "School of Vedavedangas",
+          "School of Sahitya and Culture",
+          "School of Darsanas",
+          "School of Education"
+        ],
+        "specialization_areas": [
+          "Veda",
+          "Sahitya",
+          "Vyakarana",
+          "Advaita Vedanta",
+          "Jyotisha",
+          "Yoga Therapy"
+        ],
+        "notable_centers_research_units": "Center for Ancient Shastraic Studies, Digital IKS Preservation Unit"
+      },
+      {
+        "university_name": "Shri Lal Bahadur Shastri National Sanskrit University (SLBSNSU)",
+        "state": "Delhi",
+        "lat": 28.6873,
+        "lng": 77.212,
+        "official_website": "https://www.slbsrsv.ac.in",
+        "founding_year": 1962,
+        "type_of_institution": "Central University (Upgraded 2020)",
+        "programs_offered": [
+          "Shastri",
+          "Acharya",
+          "Shiksha Shastri",
+          "Vidya-Varidhi"
+        ],
+        "departments_schools": [
+          "Veda-Vedanga Faculty",
+          "Sahitya-Sanskriti Faculty",
+          "Darshana Faculty",
+          "Purohita & Paurohitya Training School"
+        ],
+        "specialization_areas": [
+          "Vyakarana",
+          "Dharma Shastra",
+          "Jyotisha",
+          "Paurohitya (Vedic Rituals)",
+          "Sahitya"
+        ],
+        "notable_centers_research_units": "Siddhabhoomi Manuscript Library, Center for Computational Shastras"
+      },
+      {
+        "university_name": "Sampurnanand Sanskrit Vishwavidyalaya (SSVV)",
+        "state": "Uttar Pradesh",
+        "lat": 25.3176,
+        "lng": 82.9739,
+        "official_website": "http://www.ssvv.ac.in",
+        "founding_year": 1958,
+        "type_of_institution": "State Sanskrit University",
+        "programs_offered": [
+          "Shastri",
+          "Acharya",
+          "Vidya-Varidhi"
+        ],
+        "departments_schools": [
+          "Veda-Vedanga",
+          "Sahitya",
+          "Shraman Vidya Faculty",
+          "Darshana"
+        ],
+        "specialization_areas": [
+          "Veda",
+          "Vyakarana",
+          "Sahitya",
+          "Nyaya",
+          "Mimamsa",
+          "Jain & Buddhist Philosophy"
+        ],
+        "notable_centers_research_units": "Sarasvati Bhavana Granthagar (Manuscript Repository housing over 100,000 texts)"
+      },
+      {
+        "university_name": "Kavikulaguru Kalidas Sanskrit University (KKSU)",
+        "state": "Maharashtra",
+        "lat": 21.1458,
+        "lng": 79.0882,
+        "official_website": "https://kksanskrituni.digitaluniversity.ac",
+        "founding_year": 1997,
+        "type_of_institution": "State Sanskrit University",
+        "programs_offered": [
+          "BA Sanskrit",
+          "MA Sanskrit",
+          "BVoc",
+          "PhD"
+        ],
+        "departments_schools": [
+          "Vedavedanga Vibhaga",
+          "Indian Medical Science Division",
+          "Humanities School"
+        ],
+        "specialization_areas": [
+          "Sahitya",
+          "Vyakarana",
+          "Yogic Science",
+          "Ayurveda Fundamentals",
+          "Sanskrit Journalism"
+        ],
+        "notable_centers_research_units": "Center for Interdisciplinary Shastraic Research"
+      },
+      {
+        "university_name": "Sree Sankaracharya University of Sanskrit (SSUS)",
+        "state": "Kerala",
+        "lat": 10.018,
+        "lng": 76.3419,
+        "official_website": "https://ssus.ac.in",
+        "founding_year": 1993,
+        "type_of_institution": "State Sanskrit University",
+        "programs_offered": [
+          "BA",
+          "MA",
+          "MPhil",
+          "PhD"
+        ],
+        "departments_schools": [
+          "Sanskrit Sahitya Dept",
+          "Sanskrit Vyakarana Dept",
+          "Sanskrit Vedanta Dept",
+          "Sanskrit Nyaya Dept"
+        ],
+        "specialization_areas": [
+          "Advaita Vedanta",
+          "Nyaya",
+          "Sanskrit Theatre (Koodiyattam Studies)",
+          "Linguistics"
+        ],
+        "notable_centers_research_units": "Center for Kerala Studies, Manuscript Conservation Cell"
+      },
+      {
+        "university_name": "Maharishi Valmiki Sanskrit University",
+        "state": "Haryana",
+        "lat": 29.6857,
+        "lng": 76.9905,
+        "official_website": "https://mvsu.ac.in",
+        "founding_year": 2018,
+        "type_of_institution": "State Sanskrit University",
+        "programs_offered": [
+          "BA Sanskrit",
+          "MA Sanskrit",
+          "Certificate Courses",
+          "Skill Integrated Sanskrit Programs"
+        ],
+        "departments_schools": [
+          "Ramayana Studies",
+          "Traditional Sanskrit Studies",
+          "Vocational Sanskrit Programs"
+        ],
+        "specialization_areas": [
+          "Ramayana Studies",
+          "Traditional Sanskrit Education",
+          "Vocational Sanskrit Integration"
+        ],
+        "notable_centers_research_units": "Skill-integrated Sanskrit education initiatives"
+      }
+    ]
+  },
+  "section_b_sanskrit_departments": {
+    "description": "Sanskrit departments housed within non-core multidisciplinary general universities.",
+    "presentation_formats_supported": [
+      "filterable_cards",
+      "university_discipline_table",
+      "case_study_tabs"
+    ],
+    "departments": [
+      {
+        "university_name": "Banaras Hindu University (BHU)",
+        "department_name": "Faculty of Sanskrit Vidya Dharma Vijnan (SVDV)",
+        "lat": 25.2677,
+        "lng": 82.9913,
+        "official_link": "https://www.bhu.ac.in/Site/FacultyHome/1_2_12_Faculty-of-Sanskrit-Vidya-Dharma-Vijnan",
+        "courses_and_programs": [
+          "Shastri (BA)",
+          "Acharya (MA)",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Veda",
+          "Vyakarana",
+          "Sahitya",
+          "Dharmashastra",
+          "Jain-Buddha Darshana"
+        ],
+        "research_areas": [
+          "Ancient Indian Law",
+          "Textual Hermeneutics",
+          "Comparative Epistemology"
+        ],
+        "interdisciplinary_projects": "BHU Indian Knowledge Systems (IKS) Center, Ayurvedic Textual Analysis Collaborations"
+      },
+      {
+        "university_name": "University of Delhi",
+        "department_name": "Department of Sanskrit",
+        "lat": 28.6883,
+        "lng": 77.209,
+        "official_link": "http://sanskrit.du.ac.in",
+        "courses_and_programs": [
+          "BA (Hons) Sanskrit",
+          "MA Sanskrit",
+          "MPhil",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Vedic Studies",
+          "Epics & Puranas",
+          "Classical Sanskrit Literature",
+          "Indian Epigraphy"
+        ],
+        "research_areas": [
+          "Sanskrit Manuscriptology",
+          "Linguistic Analysis of Paninian Grammar",
+          "Social History in Puranas"
+        ],
+        "interdisciplinary_projects": "Computational Linguistics software pipelines, Cross-Faculty Epigraphical Studies with History Department"
+      },
+      {
+        "university_name": "University of Madras",
+        "department_name": "Department of Sanskrit",
+        "lat": 13.0668,
+        "lng": 80.2847,
+        "official_link": "https://www.unom.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Classical Philology",
+          "South Indian Sanskrit Manuscripts",
+          "Agama Texts"
+        ],
+        "research_areas": [
+          "Vaishnava Philosophy",
+          "Technical Literature in Sanskrit"
+        ],
+        "interdisciplinary_projects": "Manuscript Cataloging with local heritage libraries"
+      },
+      {
+        "university_name": "Jawaharlal Nehru University (JNU)",
+        "department_name": "Centre for Sanskrit Studies",
+        "lat": 28.5405,
+        "lng": 77.1667,
+        "official_link": "https://www.jnu.ac.in",
+        "courses_and_programs": [
+          "MA Sanskrit",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Indian Philosophy",
+          "Classical Sanskrit Literature",
+          "Linguistics"
+        ],
+        "research_areas": [
+          "Sanskrit Textual Studies",
+          "Indian Intellectual Traditions"
+        ],
+        "interdisciplinary_projects": "Cross-disciplinary humanities collaborations"
+      },
+      {
+        "university_name": "Panjab University",
+        "department_name": "Department of Sanskrit",
+        "lat": 30.7612,
+        "lng": 76.768,
+        "official_link": "https://puchd.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Sanskrit Grammar",
+          "Indian Philosophy",
+          "Classical Literature"
+        ],
+        "research_areas": [
+          "Paninian Grammar",
+          "Indian Logic"
+        ],
+        "interdisciplinary_projects": "Interdisciplinary language studies"
+      },
+      {
+        "university_name": "Kurukshetra University",
+        "department_name": "Department of Sanskrit & Indology",
+        "lat": 29.9695,
+        "lng": 76.8783,
+        "official_link": "https://kuk.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Indology",
+          "Sanskrit Literature",
+          "Vedic Studies"
+        ],
+        "research_areas": [
+          "Ancient Indian Civilization",
+          "Textual Traditions"
+        ],
+        "interdisciplinary_projects": "Heritage and archaeological collaborations"
+      },
+      {
+        "university_name": "University of Calcutta",
+        "department_name": "Department of Sanskrit",
+        "lat": 22.5769,
+        "lng": 88.3639,
+        "official_link": "https://www.caluniv.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Classical Sanskrit",
+          "Nyaya",
+          "Poetics"
+        ],
+        "research_areas": [
+          "Navya Nyaya",
+          "Classical Literature"
+        ],
+        "interdisciplinary_projects": "Research collaborations with philosophy departments"
+      },
+      {
+        "university_name": "Jadavpur University",
+        "department_name": "Sanskrit Discipline",
+        "lat": 22.4988,
+        "lng": 88.3718,
+        "official_link": "https://jaduniv.edu.in",
+        "courses_and_programs": [
+          "BA",
+          "MA"
+        ],
+        "faculty_specialization": [
+          "Literary Studies",
+          "Comparative Literature"
+        ],
+        "research_areas": [
+          "Comparative Sanskrit Literature"
+        ],
+        "interdisciplinary_projects": "Comparative literature collaborations"
+      },
+      {
+        "university_name": "Visva-Bharati University",
+        "department_name": "Sanskrit Department",
+        "lat": 23.6778,
+        "lng": 87.6836,
+        "official_link": "https://visvabharati.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Vedic Literature",
+          "Indian Philosophy"
+        ],
+        "research_areas": [
+          "Traditional Indian Knowledge Systems"
+        ],
+        "interdisciplinary_projects": "Tagorean interdisciplinary humanities studies"
+      },
+      {
+        "university_name": "Presidency University Kolkata",
+        "department_name": "Sanskrit Subject",
+        "lat": 22.5726,
+        "lng": 88.3639,
+        "official_link": "https://presiuniv.ac.in",
+        "courses_and_programs": [
+          "BA"
+        ],
+        "faculty_specialization": [
+          "Classical Sanskrit"
+        ],
+        "research_areas": [
+          "Literary and Cultural Studies"
+        ],
+        "interdisciplinary_projects": "Humanities integration"
+      },
+      {
+        "university_name": "University of Kalyani",
+        "department_name": "Department of Sanskrit",
+        "lat": 22.975,
+        "lng": 88.4345,
+        "official_link": "https://klyuniv.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA"
+        ],
+        "faculty_specialization": [
+          "Sanskrit Literature",
+          "Indian Philosophy"
+        ],
+        "research_areas": [
+          "Textual Studies"
+        ],
+        "interdisciplinary_projects": "Regional manuscript documentation"
+      },
+      {
+        "university_name": "University of Kerala",
+        "department_name": "Sanskrit Department",
+        "lat": 8.5241,
+        "lng": 76.9366,
+        "official_link": "https://keralauniversity.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Vedanta",
+          "Classical Literature"
+        ],
+        "research_areas": [
+          "Kerala Sanskrit Tradition"
+        ],
+        "interdisciplinary_projects": "Manuscript preservation collaborations"
+      },
+      {
+        "university_name": "Osmania University",
+        "department_name": "Sanskrit Department",
+        "lat": 17.4138,
+        "lng": 78.5281,
+        "official_link": "https://www.osmania.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA"
+        ],
+        "faculty_specialization": [
+          "Classical Sanskrit",
+          "Indian Philosophy"
+        ],
+        "research_areas": [
+          "Textual Criticism"
+        ],
+        "interdisciplinary_projects": "Language and culture studies"
+      },
+      {
+        "university_name": "University of Mumbai",
+        "department_name": "Department of Sanskrit",
+        "lat": 19.1075,
+        "lng": 72.8361,
+        "official_link": "https://mu.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA"
+        ],
+        "faculty_specialization": [
+          "Classical Sanskrit Literature",
+          "Poetics"
+        ],
+        "research_areas": [
+          "Literary Analysis"
+        ],
+        "interdisciplinary_projects": "Comparative literary studies"
+      },
+      {
+        "university_name": "Savitribai Phule Pune University",
+        "department_name": "Department of Sanskrit and Prakrit Languages",
+        "lat": 18.5538,
+        "lng": 73.8246,
+        "official_link": "https://www.unipune.ac.in",
+        "courses_and_programs": [
+          "BA",
+          "MA",
+          "PhD"
+        ],
+        "faculty_specialization": [
+          "Prakrit",
+          "Sanskrit Grammar",
+          "Indian Philosophy"
+        ],
+        "research_areas": [
+          "Prakrit Studies",
+          "Classical Linguistics"
+        ],
+        "interdisciplinary_projects": "Ancient language computing initiatives"
+      }
+    ]
+  }
+}

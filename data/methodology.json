@@ -1,0 +1,46 @@
+{
+  "page_title": "Research Methodology and Development Process",
+  "sections": {
+    "1_research_objective": {
+      "summary": "This initiative aimed to create a comprehensive, data-driven mapping of the Sanskrit learning ecosystem. The project documents institutional infrastructure across central universities, global language paths, preservation methods within archives, non-formal learning spaces, and modern funding pipelines.",
+      "categories_included": ["Core Academic Universities", "Global Textual Centers", "Traditional Lineage Systems", "Non-Formal Public Systems", "Digital Initiatives & Research Journals", "Scholarly Awards & Funding"]
+    },
+    "2_research_workflow": [
+      "Step 1: Read the assignment prompt and systematically identify all 15 core research topics.",
+      "Step 2: Group interconnected topics logically into cohesive web page blueprints.",
+      "Step 3: Identify trusted public databases including the UGC register, AISHE reports, and university portals.",
+      "Step 4: Execute targeted deep-dives into official institute directories and course catalogs globally.",
+      "Step 5: Extract structured information on program depth, faculty specializations, and archiving standards.",
+      "Step 6: Cross-check extracted datasets against secondary sources and NAAC evaluation reports.",
+      "Step 7: Standardize direct URLs, institutional metadata fields, and textual citations.",
+      "Step 8: Organize data blocks into neat page-specific JSON schemas.",
+      "Step 9: Design and deploy the programmatic infrastructure of the web application.",
+      "Step 10: Compile findings into a synchronized final report and presentation deck."
+    ],
+    "3_source_types_used": [
+      "Official University course registers and departmental faculty pages",
+      "UGC official consolidated university lists",
+      "Ministry of Education All India Survey on Higher Education (AISHE) documents",
+      "NAAC institutional Self-Study Reports (SSR)",
+      "Digital libraries, catalog indexes, and manuscript archive registries",
+      "Academic journal submission guidelines and international publisher repositories",
+      "Government cultural ministries and scholarship notification portals"
+    ],
+    "4_data_verification_method": {
+      "primary_approach": "Strict prioritization of official primary source documentation over secondary summaries.",
+      "triangulation_protocol": "Verifying university statistics by matching institutional claims with independent government registers (UGC and AISHE).",
+      "currency_check": "Ensuring program status and faculty details are validated against current 2025-26 academic records."
+    },
+    "5_content_organization_method": {
+      "structural_rationale": "Dividing the portal into specific target pages ensures clean discovery and minimizes cognitive load for users.",
+      "ui_presentation_strategy": "Using consistent cards, filterable tables, and workflow maps to support side-by-side data comparisons."
+    },
+    "6_output_deliverables": [
+      "Interactive Multi-Page Web Portal",
+      "Structured JSON Database Schemas",
+      "Comprehensive Analytical Group Report",
+      "Academic Presentation Deck",
+      "Cross-Referenced Source Citation Register"
+    ]
+  }
+}

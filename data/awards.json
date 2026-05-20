@@ -1,0 +1,55 @@
+{
+  "page_title": "Awards and Funding opportunities",
+  "section_a_honors_and_awards": {
+    "description": "Distinguished awards celebrating scholarly achievement and institutional contribution in Sanskrit.",
+    "awards": [
+      {
+        "award_name": "President's Certificate of Honour (Sanskrit)",
+        "awarding_body": "Ministry of Education, Government of India",
+        "official_link": "https://www.education.gov.in",
+        "category": "Lifetime Achievement Award",
+        "eligibility": "Eminent senior scholars possessing significant published work and teaching contributions over decades.",
+        "frequency": "Annual",
+        "recent_awardees": "Prominent traditional pandits and university professors of high standing",
+        "contribution_summary": "Recognizes lifelong preservation of traditional text interpretations and outstanding teaching."
+      },
+      {
+        "award_name": "Sahitya Akademi Award (Sanskrit)",
+        "awarding_body": "Sahitya Akademi, India's National Academy of Letters",
+        "official_link": "https://sahitya-akademi.gov.in",
+        "category": "Creative Literature / Outstanding Commentary",
+        "eligibility": "Authors of outstanding original creative works written in the Sanskrit language.",
+        "frequency": "Annual",
+        "recent_awardees": "Contemporary Sanskrit poets, playwrights, and modern storytellers",
+        "contribution_summary": "Encourages the continuous development of Sanskrit as a living language of creative literature."
+      }
+    ]
+  },
+  "section_b_scholarships_and_funding": {
+    "description": "Financial resources supporting students, independent researchers, and faculty.",
+    "funding_opportunities": [
+      {
+        "scholarship_fellowship_name": "ICCR Indian Studies Chairs / Fellowships",
+        "provider": "Indian Council for Cultural Relations (ICCR), Government of India",
+        "link": "https://iccr.gov.in",
+        "level": "Postdoctoral / Senior Visiting Faculty",
+        "eligibility": "Established professors and specialized researchers in Sanskrit, Indology, and philosophy.",
+        "deadline": "Rolling / Specific to bilateral institutional notifications",
+        "amount": "Covers international travel allowances, institutional honorariums, and living stipends",
+        "duration": "1 to 2 semesters",
+        "region_restrictions": "Applicable for deployment at global partner universities (e.g., in Mauritius, South America, or Europe)."
+      },
+      {
+        "scholarship_fellowship_name": "Central Sanskrit University National Scholarship Scheme",
+        "provider": "Central Sanskrit University (CSU), funded by the Ministry of Education",
+        "link": "https://www.sanskrit.nic.in/scholarship.php",
+        "level": "Undergraduate (Shastri), Postgraduate (Acharya), and Doctoral (Vidya-Varidhi)",
+        "eligibility": "Regular students scoring above minimum percentage thresholds in core Sanskrit exams at accredited institutions.",
+        "deadline": "Typically late autumn (annually notified)",
+        "amount": "Tiered monthly stipends helping offset institutional education expenses",
+        "duration": "Renewable for the standard duration of the specific degree program",
+        "region_restrictions": "Restricted to students pursuing regular academic pathways within India."
+      }
+    ]
+  }
+}

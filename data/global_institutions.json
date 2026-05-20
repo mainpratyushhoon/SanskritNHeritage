@@ -1,0 +1,155 @@
+{
+  "page_title": "Global Sanskrit Programs",
+  "sections_by_region": {
+    "the_americas": {
+      "region_introduction": "Sanskrit studies across North and South America are highly established in research universities, focusing on comparative philology, religious studies, and historical texts.",
+      "institutions": [
+        {
+          "country": "United States",
+          "institution_name": "Harvard University",
+          "website": "https://sanskritharvard.edu",
+          "department_center": "Department of South Asian Studies",
+          "program_level": ["BA", "MA", "PhD"],
+          "relevant_faculty": "Prof. Michael Witzel (Emeritus)",
+          "area_of_specialization": "Vedic Sanskrit, Indo-Iranian Philology, Historical Linguistics",
+          "collaboration_opportunities": "Harvard Oriental Series Publishing Framework"
+        },
+        {
+          "country": "United States",
+          "institution_name": "Columbia University",
+          "website": "https://mesaas.columbia.edu",
+          "department_center": "Department of Middle Eastern, South Asian, and African Studies (MESAAS)",
+          "program_level": ["BA", "MA", "PhD"],
+          "relevant_faculty": "Prof. Sheldon Pollock (Emeritus)",
+          "area_of_specialization": "Sanskrit Literature, Aesthetics, Political History of the Sanskrit Cosmopolis",
+          "collaboration_opportunities": "Murty Classical Library of India translation projects"
+        },
+        {
+          "country": "United States",
+          "institution_name": "University of California, Berkeley",
+          "website": "https://sseas.berkeley.edu",
+          "department_center": "Department of South & Southeast Asian Studies",
+          "program_level": ["BA", "MA", "PhD"],
+          "relevant_faculty": "Prof. Robert Goldman",
+          "area_of_specialization": "Epic Sanskrit Literature, Valmiki Ramayana Critical Translation",
+          "collaboration_opportunities": "Sanskrit Epic Translation Consortium"
+        },
+        {
+          "country": "United States",
+          "institution_name": "University of Chicago",
+          "website": "https://salc.uchicago.edu",
+          "department_center": "Department of South Asian Languages and Civilizations (SALC)",
+          "program_level": ["BA", "MA", "PhD"],
+          "relevant_faculty": "Prof. Gary Tubb",
+          "area_of_specialization": "Sanskrit Belles-Lettres (Kavya), Traditional Grammar, Rhetoric",
+          "collaboration_opportunities": "South Asian Language Resource Center Exchange"
+        },
+        {
+          "country": "Mexico",
+          "institution_name": "Universidad Nacional Autónoma de México (UNAM)",
+          "website": "https://www.unam.mx",
+          "department_center": "Center for Asian and African Studies",
+          "program_level": ["Elective Coursework", "Research Seminars"],
+          "relevant_faculty": "Verified Faculty Specialists",
+          "area_of_specialization": "Indo-European Philology, Spanish-Sanskrit Literary Translations",
+          "collaboration_opportunities": "Latin American-Indian Cultural Exchange frameworks"
+        },
+        {
+          "country": "Brazil",
+          "institution_name": "University of São Paulo (USP)",
+          "website": "https://www.usp.br",
+          "department_center": "Department of Linguistics / Oriental Studies",
+          "program_level": ["Undergraduate Electives", "Postgraduate Research"],
+          "relevant_faculty": "Faculty Research Advisors",
+          "area_of_specialization": "Comparative Linguistics, Sanskrit Grammar, Vedic Mythology",
+          "collaboration_opportunities": "ICCR Visiting Chair in Indian Studies"
+        }
+      ]
+    },
+    "europe": {
+      "region_introduction": "Europe boasts a deep history of textual philology, focusing on critical editions, Indo-European linguistics, and structural analysis.",
+      "institutions": [
+        {
+          "country": "Germany",
+          "institution_name": "Heidelberg University",
+          "website": "https://www.uni-heidelberg.de",
+          "department_center": "South Asia Institute (SAI) - Department of Cultural and Religious History of South Asia",
+          "program_level": ["BA", "MA", "PhD"],
+          "relevant_faculty": "Prof. Dr. Axel Michaels",
+          "area_of_specialization": "Ritual Studies, Classical Dharma Shastra Literature, Nepalese Sanskrit Manuscripts",
+          "collaboration_opportunities": "Collaborative Research Center (SFB) on Ritual Dynamics"
+        },
+        {
+          "country": "United Kingdom",
+          "institution_name": "University of Oxford",
+          "website": "https://www.ox.ac.uk",
+          "department_center": "Faculty of Asian and Middle Eastern Studies",
+          "program_level": ["BA", "MSt", "MPhil", "DPhil"],
+          "relevant_faculty": "Prof. Christopher Minkowski",
+          "area_of_specialization": "Vedic Literature, Jyotisha History, Early Modern Sanskrit Intellectual History",
+          "collaboration_opportunities": "Boden Chair of Sanskrit Endowment Networks"
+        },
+        {
+          "country": "Hungary",
+          "institution_name": "Eötvös Loránd University (ELTE Budapest)",
+          "website": "https://ind.elte.hu",
+          "department_center": "Department of Indo-European Studies",
+          "program_level": ["MA", "PhD"],
+          "relevant_faculty": "Project Research Teams",
+          "area_of_specialization": "Puranic Philology, Epigraphical Digital Corpora",
+          "collaboration_opportunities": "ERC Śivadharma Project Workshop Frameworks"
+        }
+      ]
+    },
+    "southeast_asia": {
+      "region_introduction": "Sanskrit in Southeast Asia acts as an indigenous classical heritage, reflecting deeply embedded historical, epigraphical, and architectural roots.",
+      "institutions": [
+        {
+          "country": "Thailand",
+          "institution_name": "Silpakorn University",
+          "website": "https://su.ac.th",
+          "department_center": "Sanskrit Studies Centre / Faculty of Archaeology",
+          "program_level": ["BA Sanskrit", "MA Sanskrit", "PhD Sanskrit"],
+          "relevant_faculty": "Prof. Dr. Chirapat Prapandvidya",
+          "area_of_specialization": "Sanskrit Inscriptions of Southeast Asia, Epigraphy, Classical Kavya Literature",
+          "collaboration_opportunities": "International Sanskrit Conference hosting and Southeast Asian Epigraphy Databank"
+        },
+        {
+          "country": "Indonesia",
+          "institution_name": "Udayana University (Bali)",
+          "website": "https://www.unud.ac.id",
+          "department_center": "Faculty of Humanities",
+          "program_level": ["Undergraduate / Liturgical Training"],
+          "relevant_faculty": "Balinese Liturgical Experts",
+          "area_of_specialization": "Balinese Kakawin Literature, Liturgical Sanskrit Stutis, Agama Texts",
+          "collaboration_opportunities": "Living Sanskrit Heritage workshops and ritual studies field research"
+        }
+      ]
+    },
+    "africa_and_australia": {
+      "region_introduction": "Sanskrit programs across Africa and Australia bridge major academic research with localized, regional community needs.",
+      "institutions": [
+        {
+          "country": "Mauritius",
+          "institution_name": "Mahatma Gandhi Institute (MGI)",
+          "website": "https://www.mgi.ac.mu",
+          "department_center": "School of Indological Studies - Department of Sanskrit Studies",
+          "program_level": ["Diploma", "BA (Hons) Sanskrit", "MA by Research", "PhD"],
+          "relevant_faculty": "MGI School of Indological Studies Faculty Core",
+          "area_of_specialization": "Vedic Grammar, Upanishads, Classical Sanskrit Poetry, Local Diaspora Heritage",
+          "collaboration_opportunities": "Joint degree pathways with the University of Mauritius and ICCR Chair bilateral framework"
+        },
+        {
+          "country": "Australia",
+          "institution_name": "Australian National University (ANU)",
+          "website": "https://anu.edu.au",
+          "department_center": "School of Culture, History & Language / South Asia Research Institute (SARI)",
+          "program_level": ["Minor / Elective Pathway", "Concurrent Diploma in Languages", "Postgraduate Supervision"],
+          "relevant_faculty": "Dr. McComas Taylor",
+          "area_of_specialization": "Digital Humanities, Puranic Studies, Oral Performance and Textual Transmission",
+          "collaboration_opportunities": "SanskritCloud Global Digital Campus, Open Universities Australia remote delivery"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "page_title": "Sanskrit Learning Systems",
+  "section_a_traditional_systems": {
+    "description": "Traditional lineage-based or systemic models of Sanskrit education.",
+    "presentation_format": "learning_pathway_diagram",
+    "systems": [
+      {
+        "tradition_or_institution_name": "Vedic Gurukulas & Pathashalas",
+        "type": "Traditional Residential Scholastic System",
+        "courses_disciplines_taught": ["Veda Samhita Memorization", "Vedangas (Shiksha, Vyakarana, Chhandas, Nirukta, Jyotisha, Kalpa)"],
+        "certification_model": "Traditional titles (e.g., Vedaratna) transitioning to state-accredited boards",
+        "age_group_learner_type": "Children to Young Adults (7-18 years)",
+        "pathway_into_modern_education": "Prak-Shastri (+2 level) -> Shastri (BA level) university entry pipelines."
+      },
+      {
+        "tradition_or_institution_name": "Modern Shastraic Equivalency Hierarchy",
+        "type": "Standardized Institutional Academic Pathway",
+        "courses_disciplines_taught": ["Ashtadhyayi Vyakarana", "Navya-Nyaya Logic", "Sahitya Shastra"],
+        "certification_model": "Prak-Shastri (Intermediate), Shastri (BA), Acharya (MA), Vidya-Varidhi (PhD)",
+        "age_group_learner_type": "Higher Education Students (16+ years)",
+        "pathway_into_modern_education": "Fully recognized by UGC for civil services eligibility and modern academic lectureships."
+      }
+    ]
+  },
+  "section_b_non_formal_organizations": {
+    "description": "Voluntary, community, or non-profit systems promoting Sanskrit language acquisition.",
+    "presentation_format": "organization_cards_and_reach_metrics",
+    "organizations": [
+      {
+        "organization_name": "Samskrita Bharati (Global)",
+        "official_website": "https://samskritabharati.in",
+        "course_levels": ["Pravesha (Beginner)", "Parichaya (Intermediate)", "Shiksha (Advanced-Intermediate)", "Kovida (Advanced)"],
+        "certification": "Samskrita Bharati Distance Education Certificates, 10-Day Spoken Sanskrit Camp Badges",
+        "audience_type": "General Public, Families, Working Professionals, Youth",
+        "geographic_reach": "Global (Pan-India chapters, USA, Australia, Europe, South America)",
+        "recognition_affiliation": "Affiliated with several universities for credit transfers; widely recognized as the driving vehicle behind the Spoken Sanskrit Movement."
+      },
+      {
+        "organization_name": "BAPS Swaminarayan Research Institute",
+        "official_website": "https://bapsresearch.org",
+        "course_levels": ["Certificate", "Advanced Shastraic Research Diplomas"],
+        "certification": "Institutional Scriptural Certifications",
+        "audience_type": "Spiritual Seekers, Dedicated Scriptural Researchers",
+        "geographic_reach": "International Hubs (India, North America, UK)",
+        "recognition_affiliation": "Institutional MoUs signed with various Central Universities in India for cooperative Sanskrit text studies."
+      }
+    ]
+  },
+  "section_c_online_platforms": {
+    "description": "Digital learning ecosystems and virtual classrooms.",
+    "presentation_format": "platform_cards_with_filter_tags",
+    "platforms": [
+      {
+        "platform_name": "SanskritCloud Campus (ANU Gateway)",
+        "official_website": "https://anu.edu.au/study/sanskrit-online",
+        "course_format": "Fully Online Synchronous and Asynchronous Learning via LMS",
+        "fees": "University Standard Tuition / Open Enrollment Options",
+        "duration": "Semester-based modules",
+        "prerequisites": "None for introductory courses; sequential completion for higher units",
+        "focus_area": "Textual Studies, Grammar, Translation Skills",
+        "certification": "ANU Academic Transcript Credits / Languages Diploma",
+        "youtube_links": []
+      },
+      {
+        "platform_name": "Mukta Swadhyaya Peetham (MSP) Student Portal",
+        "official_website": "https://www.msp.ac.in",
+        "course_format": "Distance Education with multimedia support portals",
+        "fees": "Subsidized government fee models",
+        "duration": "1 to 3 Years depending on course framework",
+        "prerequisites": "Varies according to target course level",
+        "focus_area": "Traditional Shastras, Core Grammar, Vedic Hymns",
+        "certification": "Central Sanskrit University (CSU) Standard Diplomas and Degrees",
+        "youtube_links": ["https://youtube.com/c/CentralSanskritUniversityOfficial"]
+      },
+      {
+        "platform_name": "Vyoma Linguistic Labs Foundation",
+        "official_website": "https://www.sanskritfromhome.org",
+        "course_format": "E-Learning self-paced web portals and live webinars",
+        "fees": "Predominantly Free / Nominal donation models for advanced paths",
+        "duration": "Varies by topic (10 hours to 6-month structural series)",
+        "prerequisites": "Categorized neatly by system tags",
+        "focus_area": "Paninian Grammar, Gita Sloka Chanting, Kavyas",
+        "certification": "Vyoma Educational Digital Badges",
+        "youtube_links": ["https://youtube.com/user/VyomaLabs"]
+      }
+    ]
+  }
+}
